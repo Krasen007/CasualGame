@@ -13,7 +13,7 @@
 
         private float angle = Constants.Angle;
         private Rigidbody2D playerRigi;
-        private GameManager gameManagerObject;
+        private UiManager gameManagerObject;
         private bool playerIsDead = false;
 
         public GameObject DeathEffectObject { get => this.deathEffectObject; set => this.deathEffectObject = value; }
@@ -21,7 +21,7 @@
         private void Awake()
         {
             this.playerRigi = this.GetComponent<Rigidbody2D>();
-            this.gameManagerObject = GameObject.Find("GameManager").GetComponent<GameManager>();
+            this.gameManagerObject = GameObject.Find("UiManager").GetComponent<UiManager>();
         }
 
         // Start is called before the first frame update
