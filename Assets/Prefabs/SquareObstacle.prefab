@@ -117,8 +117,9 @@ GameObject:
   - component: {fileID: 7966073610908831475}
   - component: {fileID: 6672166705417075394}
   - component: {fileID: 342773378282024550}
+  - component: {fileID: 2026772804848628957}
   m_Layer: 0
-  m_Name: Diamond1
+  m_Name: Diamond2
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,7 +137,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5311729256281504865}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6672166705417075394
 SpriteRenderer:
@@ -202,6 +203,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &2026772804848628957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2736656206596882805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2ae6834e2734c42992b5f5696f936b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2979564433749013504
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,8 +348,8 @@ Transform:
   m_LocalPosition: {x: 1.455, y: -0.875, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
-  - {fileID: 7966073610908831475}
   - {fileID: 2235479486501469674}
+  - {fileID: 7966073610908831475}
   - {fileID: 1764100569871318522}
   - {fileID: 8069341242266921158}
   - {fileID: 2947375633371082194}
@@ -460,8 +473,9 @@ GameObject:
   - component: {fileID: 1764100569871318522}
   - component: {fileID: 8801017341902052339}
   - component: {fileID: 6752093461198231860}
+  - component: {fileID: 2745866144575510602}
   m_Layer: 0
-  m_Name: Diamond1 (2)
+  m_Name: Diamond3
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -545,6 +559,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &2745866144575510602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6351083799827995808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2ae6834e2734c42992b5f5696f936b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7527916319531151058
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,8 +724,9 @@ GameObject:
   - component: {fileID: 8069341242266921158}
   - component: {fileID: 4287934249654068143}
   - component: {fileID: 6666849781826218156}
+  - component: {fileID: 2611564265752299447}
   m_Layer: 0
-  m_Name: Diamond1 (3)
+  m_Name: Diamond4
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -783,6 +810,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &2611564265752299447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7786814899391083320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2ae6834e2734c42992b5f5696f936b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8370253696805856893
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,8 +833,9 @@ GameObject:
   - component: {fileID: 2947375633371082194}
   - component: {fileID: 7716322948201332392}
   - component: {fileID: 2552467767626083972}
+  - component: {fileID: 7791176989420575756}
   m_Layer: 0
-  m_Name: Diamond1 (4)
+  m_Name: Diamond5
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -879,6 +919,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &7791176989420575756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8370253696805856893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2ae6834e2734c42992b5f5696f936b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8413242591266137421
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,8 +942,9 @@ GameObject:
   - component: {fileID: 2235479486501469674}
   - component: {fileID: 6107699737549123642}
   - component: {fileID: 1550076816980706047}
+  - component: {fileID: 7033399825505613514}
   m_Layer: 0
-  m_Name: Diamond1 (1)
+  m_Name: Diamond1
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -909,7 +962,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5311729256281504865}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6107699737549123642
 SpriteRenderer:
@@ -975,6 +1028,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &7033399825505613514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413242591266137421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2ae6834e2734c42992b5f5696f936b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9126253947910523912
 GameObject:
   m_ObjectHideFlags: 0
